@@ -9,4 +9,17 @@ header {
 
 p {
     font-size: 22px;
+    padding: 10px;
+}
+
+.buttonContainer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 100px;
+    
 }
