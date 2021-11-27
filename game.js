@@ -40,40 +40,12 @@ function adjustscore() {
 }
 
 function game() {
-    computerSelection = computerPlay()
-    playerSelection = prompt("Pick rock, paper, or scissors").toLowerCase()
-    console.log(playerSelection)
-    adjustscore()
-    console.log(playerScore)
-    console.log(computerScore)
-
-    computerSelection = computerPlay()
-    playerSelection = prompt("Pick rock, paper, or scissors").toLowerCase()
-    console.log(playerSelection)
-    adjustscore()
-    console.log(playerScore)
-    console.log(computerScore)
-
-    computerSelection = computerPlay()
-    playerSelection = prompt("Pick rock, paper, or scissors").toLowerCase()
-    console.log(playerSelection)
-    adjustscore()
-    console.log(playerScore)
-    console.log(computerScore)
-
-    computerSelection = computerPlay()
-    playerSelection = prompt("Pick rock, paper, or scissors").toLowerCase()
-    console.log(playerSelection)
-    adjustscore()
-    console.log(playerScore)
-    console.log(computerScore)
-
-    computerSelection = computerPlay()
-    playerSelection = prompt("Pick rock, paper, or scissors").toLowerCase()
-    console.log(playerSelection)
-    adjustscore()
-    console.log(playerScore)
-    console.log(computerScore)
+    // computerSelection = computerPlay()
+    // playerSelection = prompt("Pick rock, paper, or scissors").toLowerCase()
+    // console.log(playerSelection)
+    // adjustscore()
+    // console.log(playerScore)
+    // console.log(computerScore)
 
     if (computerScore > playerScore) {
         console.log("You lose the game!")
