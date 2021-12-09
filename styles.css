@@ -12,7 +12,7 @@ p {
     padding: 10px;
 }
 
-.buttonContainer {
+.buttonContainer, .reset {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -23,3 +23,32 @@ button {
     width: 100px;
     
 }
+
+.results {
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+}
+
+#playerScore, #computerScore, #finalGameResult {
+    text-align: center;
+    margin: 10px;
+}
+
+.gameResult, #finalGameResult {
+    text-align: center;
+    text-transform: capitalize;
+    justify-content: center;
+}
+/* 
+.playerLabels, .computerLabels {
+    display: flex;
+    align-items: center;
+} */
+
+
+
+
