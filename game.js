@@ -64,7 +64,6 @@ function resetGame() {
     playerPoints.textContent = 0;
     gameResult.textContent = "";
     finalGameResult.textContent = "";
-
 }
 
 rockbtn.addEventListener('click', () => {
